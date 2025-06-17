@@ -1,0 +1,10 @@
+a='BIO TECHNOLOGY'
+print(a[0:5])
+print(a[-1:-11:-1])
+print(a[-14:-12:-1])
+print(a[-7:-11:-1])
+print(a[4:8])
+print(a[::-1])
+print(a[10:15])
+print(a[0:13:-2])
+print(a[4:9])

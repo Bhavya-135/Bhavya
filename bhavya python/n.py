@@ -1,0 +1,7 @@
+str=input("enter a character")
+print(str.endswith("ing"))
+print(str.startswith("p"))
+print(str.find('a'))
+print(str.count("m"))
+print(str.replace('p','j'))
+print(str.isdigit())

@@ -1,0 +1,35 @@
+A=int(input("Enter the Number:"))
+
+a=0
+b=0
+c=0
+d=0
+f=0
+g=0
+i=0
+h=0
+if A>=2000:
+    a=A//2000 
+    A=A%2000 
+if A>=500:
+    b=A//500
+    A=A%500
+if A>=200:
+    c=A//200 
+    A=A%200
+if A>=50:
+    d=A//50
+    A=A%50
+if A>=20:
+    f=A//20 
+    A=A%20 
+if A>=5:
+    g=A//5 
+    A=A%5
+if A>=2:
+    h=A//2
+    A=A%2
+if A>=1:
+    i=A//1 
+    A=A%1 
+print("2000:"+str(a)+" 500:"+str(b)+" 200:"+str(c)+" 50:"+str(d)+" 20:"+str(f)+" 5:"+str(g)+" 2:"+str(h)+" 1:"+str(i))

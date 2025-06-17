@@ -1,0 +1,12 @@
+b="c","c++","python","java","html","css","js","nodejs","R","reastjs","sql","datastructures","ms","os","fullstruck"
+(s_1,s_2,s_3,s_4,s_5,s_6,s_7,s_8,s_9,s_10,s_11,s_12,s_13,s_14,s_15)=b
+print(type(s_1))
+print(s_2)
+print(s_3)
+print(s_4)
+print(s_5)
+print(s_6)
+print(s_7)
+print(s_8)
+print(s_9)
+print(s_10)
