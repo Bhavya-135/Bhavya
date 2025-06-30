@@ -1,0 +1,11 @@
+from collections import deque
+dq=deque(['mom','tue','wed'])
+print(dq)
+dq.append('thu')
+print(dq)
+dq.appendleft('sun')
+print(dq)
+dq.pop()
+print(dq)
+dq.popleft()
+print(dq)

@@ -1,0 +1,22 @@
+#implementation of collection moudle from deque class for queue
+
+from collections import deque
+iq=deque(maxlen=4)
+iq.append(10)
+print(iq)
+iq.append(20)
+print(iq)
+iq.append(30)
+print(iq)
+iq.append(40)
+print(iq)
+iq.append(50)
+print(iq)
+iq.popleft()
+print(iq)
+iq.popleft()
+print(iq)
+iq.popleft()
+print(iq)
+iq.popleft()
+print(iq)
